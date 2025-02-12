@@ -1,2 +1,8 @@
-# RetroNews
-Bringing back the charm of old-school news browsing, RetroNews delivers the latest headlines with a retro-inspired design. Search, save, and explore news from around the world in a nostalgic yet modern way.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
