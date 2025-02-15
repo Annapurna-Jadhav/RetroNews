@@ -2,7 +2,9 @@
 
 
 /* styles.css */
-
+.retrocolor{
+  color:rgb(190, 180, 127)
+}
 .retrogreen{
   color:#39FF14
 }
@@ -24,34 +26,5 @@
     width: 100%;
 }
 
-.font-emilys {
-    font-family: 'Emilys Candy', cursive;
-}
 
-.search-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-}
 
-.search-input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 10px;
-}
-
-.search-button {
-    background-color: #f0f0f0;
-    border: none;
-    cursor: pointer;
-}
-
-.news-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
