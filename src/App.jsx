@@ -3,12 +3,13 @@ import './App.css';
 import Button from './components/Button';
 import SearchBar from './components/SearchBar';
 import MultipleButtons from './components/MultipleButtons';
-import designImage from './assets/design.jpg';
-import newsBackImage from './assets/newsBack.jpg';
-import design2 from './assets/design2.jpg';
-import singleLine from './assets/singleLine.jpg';
+
 import design from './assets/design.jpg';
+import NewsCard from './components/NewsCard';
 function App() {
+  const [news,setNews]= useState([]);
+  
+
   return (
     <>
       <div className='bg-image iceberg-regular'>
@@ -17,9 +18,9 @@ function App() {
           The Retro
           
           News
-          {/* <div className="p-2 mx-4 rounded-full">
-            <img src={design} className="w-20 h-20 " alt="design" />
-          </div> */}
+          <div className="p-2 mx-4 rounded-full">
+            <img src={design} className="grayscale-50 rounded-full w-20 h-20 " alt="design" />
+          </div>
         </h1>
         
         <div className='w-full h-1 bg-gray-700'></div>
@@ -36,6 +37,9 @@ function App() {
         </h2>
 
         <SearchBar />
+
+        <br/>
+        <NewsCard/>
         </div>
       </div>
     </>

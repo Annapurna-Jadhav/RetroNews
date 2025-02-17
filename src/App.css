@@ -39,7 +39,8 @@
   background-image: url('./assets/download.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  background-repeat: no-repeat;
+  height: 100rem;
   width: 100%;
 }
 .hero-section{
