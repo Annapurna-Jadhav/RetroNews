@@ -29,11 +29,14 @@ function App() {
         <div className=''>
           
       
-      <h2 className='text-center w-4/5 text-5xl m-auto mt-10 mb-6 text-gray-700'>
+      <h2 className='text-center w-4/5 leading-15 text-5xl m-auto mt-10 mb-6 text-gray-700'>
           The world is changing, stay ahead,
-          With stories fresh, in fonts well-read.
+          With stories fresh,
           A vintage touch, a modern view,
-          News reborn, just made for you!
+          News reborn,
+          <pre className='text-center w-4/5 text-6xl m-auto mt-4 iceberg-regular mb-18   text-gray-700'>
+           just made for you!
+          </pre>
         </h2>
 
         <SearchBar />
