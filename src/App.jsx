@@ -31,7 +31,7 @@ function App() {
       
       <h2 className='text-center w-4/5 text-5xl m-auto mt-10 mb-6 text-gray-700'>
           The world is changing, stay ahead,
-          With stories fresh, in fonts well-read.
+          With stories fresh.
           A vintage touch, a modern view,
           News reborn, just made for you!
         </h2>
