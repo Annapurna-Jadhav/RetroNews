@@ -17,9 +17,11 @@ const MultipleButtons = ({ keyword }) => {
       <Button keyword="StockMarket" />
 
       <Button keyword="Buissines" />
+      <Button keyword="Social Media" />
 
 
       <Button keyword="AI" />
+      <Button keyword="Agriculture" />
 
     </div>
   )
